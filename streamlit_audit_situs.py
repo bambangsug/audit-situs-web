@@ -31,7 +31,8 @@ if st.button("Cek Keamanan"):
         if hasil == {}:
             st.success("✅ Situs aman menurut Google Safe Browsing API.")
         else:
-            st.error(⚠️ Situs terdeteksi berisiko!")
+            st.error("⚠️ Situs terdeteksi berisiko!")
             st.json(hasil)
     else:
         st.warning("Mohon masukkan URL terlebih dahulu.")
+
